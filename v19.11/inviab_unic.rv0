@@ -1,0 +1,31 @@
+   CEPEL: DECOMP - Coordenacao da Operacao a Curto Prazo - v30.1 - Jan/2020(L)                    27/03/2020                                          
+                                                                                                                                                      
+   PMO - ABRIL/20 - MAIO/20 - REV 0 - FCF COM CVAR - 12 REE - VALOR ESPERADO       - PLANEJAMENTO:28/03/2020                                          
+                                                                                                                                                      
+   RELATORIO DE VIOLACOES DAS RESTRICOES OPERATIVAS POR ITERACAO, ESTAGIO E CENARIO:                                                                  
+   X---------X--------------X--------X--------X---------------------------------------------------X----------------------X                            
+    ITERACAO  FWD(1)/BWD(0)  ESTAGIO  CENARIO      RESTRICAO VIOLADA                                     VIOLACAO                                     
+   X---------X--------------X--------X--------X---------------------------------------------------X----------------------X                            
+       1           1           1          1    RESTRICAO ELETRICA  261 PATAMAR 2 (L. INF)                0.65412207 MWmed                             
+       1           1           1          1    RESTRICAO ELETRICA  261 PATAMAR 3 (L. INF)               18.48769031 MWmed                             
+       1           1           2          1    RESTRICAO ELETRICA  261 PATAMAR 1 (L. INF)               13.14039997 MWmed                             
+       1           1           2          1    RESTRICAO ELETRICA  261 PATAMAR 2 (L. INF)               23.96696982 MWmed                             
+       1           1           2          1    RESTRICAO ELETRICA  261 PATAMAR 3 (L. INF)               23.96696982 MWmed                             
+       1           1           2          1    IRRIGACAO, USINA MAUA                                     1.50000000 m3/s                              
+       1           1           2          1    IRRIGACAO, USINA BARRA GRANDE                             0.30000000 m3/s                              
+       1           1           2          1    RHQ 183: VAZAO DEFLUENTE (L. INF), PATAMAR 2              8.98344302 m3/s                              
+       1           1           2          1    RHQ 183: VAZAO DEFLUENTE (L. INF), PATAMAR 3             51.80000000 m3/s                              
+       1           1           2          1    RHQ 250: VAZAO DEFLUENTE (L. INF), PATAMAR 3             13.13987003 m3/s                              
+       1           1           2          1    RHQ 154: VAZAO DEFLUENTE (L. SUP), PATAMAR 3              0.68766907 m3/s                              
+       1           1           3          1    RESTRICAO ELETRICA  261 PATAMAR 1 (L. INF)               11.37428551 MWmed                             
+       1           1           3          1    RESTRICAO ELETRICA  261 PATAMAR 2 (L. INF)               11.37428551 MWmed                             
+       1           1           3          1    RESTRICAO ELETRICA  261 PATAMAR 3 (L. INF)               22.94967651 MWmed                             
+       1           1           3          1    IRRIGACAO, USINA MAUA                                     0.65835684 m3/s                              
+                                                                                                                               
+   SIMULACAO FINAL:                                                                                                                                   
+   X--------X--------X----------------------------------------------------------------------------X----------------------X                            
+    ESTAGIO  CENARIO         RESTRICAO VIOLADA                                                           VIOLACAO                                     
+   X--------X--------X----------------------------------------------------------------------------X----------------------X                                                     
+         3        1    RESTRICAO ELETRICA  261 PATAMAR 1 (L. INF)                                        3.81317267 MWmed                             
+         3        1    RESTRICAO ELETRICA  261 PATAMAR 2 (L. INF)                                       10.93018801 MWmed                             
+         3        1    RESTRICAO ELETRICA  261 PATAMAR 3 (L. INF)                                       10.93018801 MWmed                             

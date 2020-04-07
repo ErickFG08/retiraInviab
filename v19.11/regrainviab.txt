@@ -1,0 +1,242 @@
+Tipo Cod Etapa It Lim Rest Cod Lim Usina
+Rest                  Flex         Env
+ XX  XXX   XX  XX  X   XX  XXX  X  XXX
+ EV    0    1   1  0   EV    0  0    0  Retira as evaporações na 1ª iteração
+ DM    0    1   1  0   DM    0  0    0  Retira as defluências mínimas na 1ª iteração
+ DM    0    2   1  0   DM    0  0    0  Retira as defluências mínimas na 1ª iteração
+ TI    0    1   1  0   TI    0  0    0  Retira as irrigações na 1ª iteração
+ FP    0    1   1  0   FP    0  0    0  Corrige a FPH na 1ª iteração
+ HQ   10    1   1  0   HV  104  0  277  Vazao Minima Balbina retira do Volume Minimo
+ HQ   10    1   2  0   HQ   10  0  277  Vazao Minima Balbina
+ HQ   12    1   1  0   HQ   12  0    1  Vazao Minima Camargos
+ HQ   13    1   1  0   HQ   13  0    2  Vazao Minima Itutinga
+ HQ   15    1   1  0   HQ   15  0    4  Vazao Minima Funil Grande
+ HQ   15    1   1  1   HQ   15  1    0  Vazao Maxima Funil Grande
+ HQ   34    2   2  0   HQ   34  0    0  Vazao Minima e Máxima de Emborcação
+ HQ   35    2   2  0   HQ   35  0    0  Vazao Minima e Máxima de Nova Ponte
+ HQ   41    1   1  0   HQ   41  0    0  Vazao Minima Tres Marias
+ HQ   41    1   1  1   HQ   41  1  156  Vazao Maxima Tres Marias
+ HQ   45    1   2  0   HQ   45  0  162  Vazao Minima Queimado
+ HQ   45    1   2  1   HQ   45  0    0  Vazao Maxima Queimado
+ HQ   50    1   1  0   HQ   50  0    0  Vazao Minima Irape
+ HQ   56    1   1  0   HQ   56  0   14  Vazao Minima Caconde
+ HQ   57    1   1  0   HQ   57  0   14  Vazao Minima Caconde
+ HQ   58    1   1  0   HQ   58  0   16  vazao Minima A. S. Oliveira 
+ HQ   59    1   1  0   HV   13  0    0  Vazao minima A. Vermelha retira do Volume 
+ HQ   59    1   1  0   HQ   59  0    0  Vazao minima A. Vermelhae  
+ HQ   64    1   1  0   HQ   64  0    0  Vazao minima Piraju  
+ HQ   65    1   1  0   HQ   65  0    0  Vazao minima Jurumirim  
+ HQ   85    1   2  1   HQ   85  1   46  Vazao Maxima P. Primavera
+ HQ   87    1   1  0   HV   66  0  120  Vazao de Jaguari retira do Volume Minimo
+ HQ   87    1   2  0   HQ   87  0  120  Vazao de Jaguari
+ HQ   87    1   2  1   HQ   87  1  120  Vazao Maxima Jaguari
+ HQ   88    1   1  0   HV   65  0  121  Vazao de Paraibuna retira do Volume Minimo
+ HQ   88    1   2  0   HQ   88  0  121  Vazao de Paraibuna
+ HQ   91    1   2  1   HQ   91  1   45  Vazao Maxima Jupia
+ HQ   93    1   1  0   HQ   93  0    0  Vazao Minima Furnas
+ HQ   93    1   1  1   HQ   93  1    0  Vazao Maxima Furnas 
+ HQ  102    1   1  1   HQ  102  1  123  Vazao Maxima Funil
+ HQ  105    1   1  0   HQ  105  1    0  Vazao Serra da Mesa
+ HQ  105    1   1  0   HQ  105  0    0  Vazao Serra da Mesa
+ HQ  110    1   1  0   HQ  110  0    0  Vazao Minima Manso
+ HQ  110    1   1  1   HQ  110  1    0  Vazao Maxima Manso
+ HQ  113    1   1  0   HQ  113  0   30  Vazao Minima Corumba I
+ HQ  113    1   1  1   HQ  113  1    0  Vazao Maxima Corumba I
+ HQ  114    1   1  0   HQ  114  0   20  Vazao Batalha
+ HQ  125    1   1  1   HQ  125  1  125  Vazao de Sta Cecilia
+ HQ  125    1   2  1   HQ  159  1  125  Vazao de Sta Cecilia retira de Pereira Passo
+ HQ  125    1   3  1   HQ  162  1  125  Vazao de Sta Cecilia retira de Tocos
+ HQ  125    2   1  0   HQ  125  0    0  Vazao de Sta Cecilia
+ HQ  126    1   1  0   HQ  126  0  181  Vazao Minima Santana
+ HQ  126    1   1  1   HQ  126  1  181  Vazao Maxima Santana
+ HQ  126    2   1  1   HQ  126  1  181  Vazao Maxima Santana
+ HQ  149    1   1  0   HV   67  0  122  Vazao Santa Branca retira do Volume Minimo
+ HQ  149    1   2  0   HQ  149  0  122  Vazao Santa Branca
+ HQ  151    1   2  0   HQ  151  0  124  Vazao Minima Lajes
+ HQ  152    1   2  0   HQ  152  0  124  Vazao Minima Lajes
+ HQ  152    1   2  1   HQ  152  1  124  Vazao Maxima Lajes
+ HQ  154    1   1  0   HQ  154  0  124  Vazao Minima Lajes
+ HQ  154    1   1  1   HQ  154  1  124  Vazao Maxima Lajes
+ HQ  159    1   1  1   HQ  125  1  133  Vazao de Pereira Passo retira de Sta Cecilia
+ HQ  159    1   1  1   HQ  162  1    0  Vazao de Pereira Passo retira de Tocos
+ HQ  159    1   2  1   HQ  159  1  133  Vazao de Pereira Passo
+ HQ  159    2   2  1   HQ  159  1  133  Vazao maxima de Pereira Passo
+ HQ  161    1   1  1   HQ  162  1  180  Vazao Maxima Desvio Tocos retira na Vazao de Tocos 
+ HQ  161    1   2  1   HQ  159  1  180  Vazao Maxima Desvio Tocos retira na Vazao de Santa Cecilia 
+ HQ  161    1   3  1   HQ  161  1  180  Vazao Maxima Desvio Tocos
+ HQ  161    2   3  1   HQ  161  1  180  Vazao Maxima Desvio Tocos
+ HQ  162    1   1  1   HQ  162  1  180  Vazao Maxima Desvio Tocos retira na Vazao de Tocos 
+ HQ  162    1   2  1   HQ  162  1  180  Vazao Maxima Tocos, esta na segunda iteracao pois o desvio Ã© prioritario
+ HQ  166    1   2  0   HQ  166  0  183  Vazao Minima Fontes A
+ HQ  171    1   1  0   HQ  171  0  144  Vazao Minima Mascarenhas
+ HQ  174    2   1  1   HQ  174  1    0  Desvio de Edgard Souza
+ HQ  175    2   1  1   HQ  175  1    0  Desvio de Traição
+ HQ  178    1   1  0   HQ  178  0  118  Vazao Minima Billings
+ HQ  178    1   1  1   HQ  178  1  118  Vazao Máxima Billings
+ HQ  183    1   1  0   HQ  183  0   57  Vazao Máxima Billings
+ HQ  196    1   1  0   HQ  196  0    0  Vazoa Minima Machadinho
+ HQ  202    2   1  0   HQ  248  1    0  Vazao Minima Estreito Toc  
+ HQ  202    2   2  0   HQ  202  0    0  Vazao Minima Estreito Toc  
+ HQ  207    1   2  1   HQ  207  1  114  Vazao Maxima D. Francisca  
+ HQ  213    1   1  1   HQ  213  1  169  Vazao Maxima Sobradinho
+ HQ  213    1   1  0   HQ  213  0    0  Vazao Minima Sobradinho
+ HQ  216    1   1  0   HQ  213  1  178  Vazao Minima de Xingo retira de Sobradinho
+ HQ  216    1   1  1   HQ  216  1  178  Vazao Máxima de Xingo
+ HQ  218    1   1  0   HQ  218  0  190  Vazao Minima B. Esperanca
+ HQ  219    1   1  0   HQ  219  0  189  Vazao Minima P. Cavalo
+ HQ  219    1   1  1   HQ  219  1  189  Vazao Maxima P. Cavalo
+ HQ  222    1   1  0   HV  101  0    0  Vazao Minima Tucurui retira do Volume Minimo
+ HQ  222    1   2  0   HQ  222  0    0  Vazao Minima Tucurui
+ HQ  224    1   1  0   HQ  224  0   89  Vazao Minima Garibaldi
+ HQ  224    2   1  0   HQ  224  0   89  Vazao Minima Garibaldi
+ HQ  226    1   1  0   HQ  226  0  135  Vazao Minima Porto Estrela
+ HQ  227    1   1  0   HV  107  0  155  Vazao Minima Retiro Baixo retira no Volume
+ HQ  227    1   2  0   HQ  227  0  155  Vazao Minima Retiro Baixo
+ HQ  229    1   1  0   HQ  229  0    0  VAzao Minima Itapebi
+ HQ  248    1   1  1   HQ  248  1    0  Vazao Maxima Serra da Mesa
+ HQ  252    1   1  0   HQ  252  0    0  Vazao Minima Belo Monte
+ HQ  252    1   1  1   HQ  252  1    0  Vazao Maxima Belo Monte
+ HQ  254    1   1  0   HQ  252  0  314  Vazao Minima Pimental retira de Belo Monte
+ HQ  254    1   2  0   HQ  254  0  314  Vazao Minima Pimental
+ RE    1    1   1  0   HV    4  0    0  Restricao Eletrica Emborcacao, retira do volume
+ RE    1    1   2  0   RE    1  0    0  Restricao Eletrica Emborcacao
+ RE    5    1   1  0   RE    5  0    0  Restricao Eletrica Nova Ponte
+ RE    7    1   1  0   RE    7  0   33  Restricao Eletrica Sao Simao
+ RE   21    1   1  0   RE   21  0    0  Restricao Eletrica Serra do Facao
+ RE   41    1   1  0   RE   41  0    0  Restricao Eletrica Chavantes
+ RE   51    1   1  0   RE   51  0    0  Restricao Eletrica Capivara
+ RE   61    1   1  0   RE   61  0   30  Restricao Eletrica Corumba I
+ RE   63    1   1  0   RE   63  0    0  Restricao Eletrica Batalha
+ RE   81    1   1  0   RE   81  0    0  Restricao Eletrica HENRY BORDEN
+ RE  101    1   1  0   RE  101  0  262  Restricao Eletrica Salto
+ RE  145    1   2  0   RE  145  0    0  Restricao Eletrica Sobradinho
+ RE  145    2   2  0   RE  145  0    0  Restricao Eletrica Sobradinho
+ RE  147    1   1  0   RE  147  0    0  Restricao Eletrica Itaparica
+ RE  147    2   1  0   RE  147  0    0  Restricao Eletrica Itaparica
+ RE  161    1   1  0   RE  161  0    0  Restricao Eletrica Sta Clara MG 
+ RE  161    2   1  0   RE  161  0    0  Restricao Eletrica Sta Clara MG 
+ RE  181    1   1  0   RE  181  0   29  Restricao Eletrica Corumba IV
+ RE  201    1   1  0   RE  201  0    0  Restricao Eletrica Balbina
+ RE  221    1   1  0   RE  221  0    0  Restricao Eletrica Passo Real
+ RE  225    1   1  0   RE  225  0    0  Restricao Eletrica Itauba
+ RE  227    1   1  0   RE  227  0    0  Restricao Eletrica Itauba
+ RE  241    1   1  0   RE  241  0    0  Restricao Eletrica Tucurui, futuramente retirar do volume
+ RE  243    1   1  0   RE  243  0  279  Restricao Eletrica Samuel
+ RE  261    1   1  0   RE  261  0   89  Restricao Eletrica Garibaldi
+ RE  261    2   1  0   RE  261  0   89  Restricao Eletrica Garibaldi
+ RE  261    3   1  0   RE  261  0   89  Restricao Eletrica Garibaldi
+ RE  261    4   1  0   RE  261  0   89  Restricao Eletrica Garibaldi
+ RE  261    5   1  0   RE  261  0   89  Restricao Eletrica Garibaldi
+ RE  261    6   1  0   RE  261  0   89  Restricao Eletrica Garibaldi
+ RE  271    1   1  0   RE  271  0   26  Restricao Eletrica Miranda
+ RE  321    1   1  0   RE  321  0  229  Restricao Eletrica Teles Pires
+ RE  449    1   1  0   RE  449  0    0  Restricao Eletrica Manaus
+ RE  451    1   1  0   RE  451  0  284  Restricao Eletrica Macapa
+ RE  464    1   1  1   RE  464  1  229  Restricao Itaipu
+ RE  700    1   1  0   RE  700  0    0  Restricao Eletrica Manaus
+ HV    3    1   1  0   HV    3  0   25  Volume Minimo Nova Ponte
+ HV    4    1   1  0   HV    4  0    0  Volume Minimo Embroca??o
+ HV   13    2   2  0   HV   13  0   18  Volume Minimo Agua Vermelha
+ HV   15    1   1  0   HV   15  0   37  Volume Minimo Barra Bonita
+ HV   15    2   1  0   HV   15  0   37  Volume Minimo Barra Bonita
+ HV   17    2   2  0   HV   17  0   40  Volume Minimo Promissao
+ HV   20    2   2  0   HV   20  0   44  Volume Minimo Ils/Tres Irmaos
+ HV   25    1   1  0   HV   25  0   47  Volume Minimo A. A. Laydner
+ HV   41    1   1  0   HV   41  0    6  Volume Minimo Furnas
+ HV   50    1   1  0   HV   50  0    0  Volume Minimo Marimbondo
+ HV   65    1   2  0   HV   65  0  121  Volume Minimo Paraibuna
+ HV   66    1   2  0   HV   66  0  120  Volume Minimo Jaguari
+ HV   67    1   2  0   HV   67  0    0  Volume Minimo Sta Branca
+ HV   71    1   1  0   HQ  102  0    0  Volume Minimo Funil
+ HV   71    1   2  0   HV   71  0    0  Volume Minimo Funil
+ HV   75    1   1  1   HV   75  1    0  Volume Maximo Guarapiranga
+ HV   77    1   1  1   HV   77  1  118  Volume Maximo Billings
+ HV  101    1   1  0   HV  101  0    0  Volume Minimo Tucurui
+ HV  104    1   1  0   HV  104  0    0  Volume Minimo Balbina
+ HV  106    1   1  0   HQ  213  1    0  Volume de Itaparica retira da vazao maxima de sobradinho 
+ HV  106    1   3  0   HV  106  0    0  Volume de Itaparica
+ HV  107    1   1  0   HV  107  0    0  Volume Minimo Retiro Baixo
+ TI    1    1   1  0   HQ   12  0    1  Irrigacao Camargos retira da vazão minima
+ TI    1    1   2  0   TI    1  0    1  Irrigacao Camargos
+ TI    4    1   1  0   HQ   12  0    4  Irrigacao Funil-Grande retira da vazão minima de Camargos
+ TI    4    1   2  0   TI    4  0    4  Irrigacao Camargos
+ TI    6    1   1  0   HV   41  0    6  Irrigacao Furnas retira Volume Minimo Furnas
+ TI    6    1   2  0   TI    6  0    6  Irrigacao Furnas
+ TI    7    1   1  0   HQ   94  0    7  Irrigacao M. de Moreas retira Vazao Minimo
+ TI    7    1   2  0   HV   42  0    7  Irrigacao M. de Moreas retira Volume Minimo
+ TI    7    1   2  0   TI    7  0    7  Irrigacao M. de Moreas
+ TI    8    1   1  0   HQ   96  0    8  Irrigacao Estreito retira da vazão minima
+ TI    8    1   2  0   TI    8  0    8  Irrigacao Estreito
+ TI   14    1   1  0   HQ   56  0   14  Irrigacao Caconde retira na Vazao Minima
+ TI   14    1   2  0   HQ   57  0   14  Irrigacao Caconde retira na Vazao Minima
+ TI   14    1   3  0   TI   14  0   14  Irrigacao Caconde
+ TI   15    1   1  0   HQ   56  0   15  Irrigacao E. da Cunha retira da Vazao Minima de Caconde
+ TI   15    1   2  0   HQ   57  0   15  Irrigacao E. da Cunha retira da Vazao Minima de Caconde
+ TI   15    1   3  0   TI   15  0   15  Irrigacao E. da Cunha
+ TI   16    1   1  0   HQ   58  0   16  Irrigacao A. S. Oliveira retira da Vazao Minima
+ TI   16    1   2  0   TI   16  0   16  Irrigacao A. S. Oliveira
+ TI   37    1   1  0   HV   15  0   37  Irrigacao Barra Bonita retira do Volume Minimo
+ TI   37    1   2  0   TI   37  0   37  Irrigacao Barra Bonita
+ TI   38    1   1  0   HV   15  0   38  Irrigacao Bariri retira do Volume Minimo de Barra Bonita
+ TI   38    1   2  0   TI   38  0   38  Irrigacao Bariri
+ TI   39    1   1  0   HV   15  0   39  Irrigacao Ibitinga retira do Volume Minimo de Barra Bonita
+ TI   39    1   2  0   TI   39  0   39  Irrigacao Ibitinga
+ TI   40    1   1  0   HV   17  0   40  Irrigacao Promissao retira do Volume Minimo
+ TI   40    1   2  0   TI   40  0   40  Irrigacao Promissao
+ TI   46    1   1  0   HQ   91  1   46  Irrigacao P. Primavera retira da vazao maxima de jupia
+ TI   46    1   2  0   TI   46  0   46  Irrigacao P. Primavera
+ TI   89    1   1  0   HQ  224  0   89  Irrigacao Garibaldi retira na Vazao
+ TI   89    1   2  0   RE  261  0   89  Irrigacao Garibaldi retira na Geracao
+ TI   89    1   3  0   TI   89  0   89  Irrigacao Garibaldi
+ TI  120    1   1  0   HV   66  0  120  Irrigacao Jaguari retira do volume
+ TI  120    1   2  0   HQ   87  0  120  Irrigacao Jaguari retira da vazao
+ TI  120    1   3  0   TI  120  0  120  Irrigacao Jaguari
+ TI  121    1   1  0   HV   65  0  121  Irrigacao Paraibuna retira do volume
+ TI  121    1   2  0   HQ   88  0  121  Irrigacao Paraibuna retira da vazao
+ TI  121    1   3  0   TI  121  0  121  Irrigacao Paraibuna
+ TI  122    1   1  0   HV   67  0  122  Irrigacao Santa Branca retira do volume
+ TI  122    1   2  0   HQ  149  0  122  Irrigacao Santa Branca retira da vazao
+ TI  122    1   3  0   TI  121  0  122  Irrigacao Santa Branca
+ TI  123    1   1  0   HV   67  0  123  Irrigacao Funil retira do volume Santa Branca
+ TI  123    1   3  0   TI  123  0  123  Irrigacao Funil
+ TI  134    1   1  0   HQ  171  0  134  Irrigacao S. Grande retira da Vazao de Mascarenhas
+ TI  135    1   1  0   HQ  226  0  135  Irrigacao Porto Estrela retira da vazao
+ TI  139    1   1  0   HQ  171  0  139  Irrigacao Candonga retira da Vazao de Mascarenhas
+ TI  139    1   3  0   TI  139  0  139  Irrigacao Candonga
+ TI  141    1   1  0   HQ  171  0  141  Irrigacao Baguari retira da Vazao de Mascarenhas
+ TI  141    1   3  0   TI  141  0  141  Irrigacao Baguari
+ TI  143    1   1  0   HQ  171  0  143  Irrigacao Aimores retira da Vazao de Mascarenhas
+ TI  143    1   3  0   TI  143  0  143  Irrigacao Aimores
+ TI  155    1   1  0   HV  107  0  155  Irrigacao Retiro Baixo retira no Volume
+ TI  155    1   2  0   HQ  227  0  155  Irrigacao Retiro Baixo retira na Vazao
+ TI  155    1   3  0   TI  155  0  155  Irrigacao Retiro Baixo
+ TI  162    1   1  0   HQ   45  0  162  Irrigacao Queimado retira da Vazao
+ TI  162    1   3  0   TI  162  0  162  Irrigacao Queimado
+ TI  172    1   1  0   HQ  213  1  172  Irrigacao Itaparica sobe a vazao Maxima de Sobradinho
+ TI  178    1   1  0   HQ  213  1  178  Irrigacao Xingo sobe a vazao Maxima de Sobradinho
+ TI  189    1   1  0   HQ  219  0  189  Irrigacao P. Cavalo retira da Vazao Minima
+ TI  189    1   3  0   TI  189  0  189  Irrigacao P. Cavalo
+ TI  190    1   1  0   HQ  218  0  190  Irrigacao B. Esperanca retira da Vazao Minima
+ TI  190    1   1  0   TI  190  0  190  Irrigacao B. Esperanca
+ TI  192    1   1  0   HQ  171  0  192  Irrigacao Guilman-Amor retira da Vazao de Mascarenhas
+ TI  192    1   3  0   TI  192  0  192  Irrigacao Guilman-Amor
+ TI  215    1   1  0   TI  215  0    0  Irrigacao Salto Pilao
+ TI  277    1   1  0   HV  104  0  277  Irrigacao Balbina retira do Volume Minimo
+ TI  277    1   2  0   HQ   10  0  277  Irrigacao Balbina retira da Vazao Minima
+ TI  277    1   3  0   TI  277  0  277  Irrigacao Balbina
+ TI  288    1   2  0   HQ  254  0  288  Irrigacao Belo Monte retira da Vazao de Pimental
+ TI  288    1   3  0   TI  288  0  288  Irrigacao Belo Monte
+ EV    0    1   4  0   EV    0  0    0  Retira as evaporações na 4ª iteração (limite inferior)
+ DM    0    1   4  0   DM    0  0    0  Retira as defluências mínimas na 4ª iteração (limite inferior)
+ TI    0    1   4  0   TI    0  0    0  Retira as irrigações na 4ª iteração (limite inferior)
+ HQ    0    1   4  0   HQ    0  0    0  Retira as restrições de vazão na 4ª iteração (limite inferior)
+ RE    0    1   4  0   RE    0  0    0  Retira as restrições elétricas na 4ª iteração (limite inferior)
+ HV    0    1   4  0   HV    0  0    0  Retira as restrições de volume na 4ª iteração (limite inferior)
+ HA    0    1   4  0   HA    0  0    0  Retira as restrições de afluência na 4ª iteração (limite inferior)
+ EV    0    1   4  1   EV    0  1    0  Retira as evaporações na 4ª iteração (limite superior)
+ DM    0    1   4  1   DM    0  1    0  Retira as defluências mínimas na 4ª iteração (limite superior)
+ TI    0    1   4  1   TI    0  1    0  Retira as irrigações na 4ª iteração (limite superior)
+ HQ    0    1   4  1   HQ    0  1    0  Retira as restrições de vazão na 4ª iteração (limite superior)
+ RE    0    1   4  1   RE    0  1    0  Retira as restrições elétricas na 4ª iteração (limite superior)
+ HV    0    1   4  1   HV    0  1    0  Retira as restrições de volume na 4ª iteração (limite superior)
+ HA    0    1   4  1   HA    0  1    0  Retira as restrições de afluência na 4ª iteração (limite superior)
